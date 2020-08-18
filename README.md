@@ -7,7 +7,7 @@ I TAKE NO RESPONSIBILITY FOR ANY DAMAGES THAT MAY OCCUR FROM USING THIS SCRIPT. 
 
 Introduction
 ------------
-This tool is aimed at VMware ESXi, FreeBSD and Linux users who wish to better control their fans based on temperatures.
+This tool is aimed at VMware ESXi and Linux users who wish to better control their fans based on temperatures.
 
 It monitors configured CPU / Motherboard / Memory temps and will set fan speeds accordingly with a little smoothing to
 prevent rapidly changing fan speeds aka yo-yo'ing (which annoys those nearby and can reduce fan bearing lifespan).
@@ -15,9 +15,11 @@ prevent rapidly changing fan speeds aka yo-yo'ing (which annoys those nearby and
 I wrote this tool for use with VMware ESXi on a Supermicro X8SIL-F but it should work on other x86/x64 \*nix systems and
 hopefully all Supermicro X8 / X9 / X10 / X11 boards with IPMI. I have personally tested it on the following;
 
+#### Hardware
 * Supermicro X9DRi-LN4+
 * Supermicro X8SIL-F (IPMI equipped variant)
 
+#### Operating Systems
 * VMWare ESXi 6.7
 * VMware ESXi 5.5
 * Ubuntu 20.04
